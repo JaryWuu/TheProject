@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--title中的内容显示在标签页面的最上方-->
+    <title>武峻宇</title>
+
+    <!--link用来加载外部资源用的标签-->
+    <!--herf链接相对路径、绝对路径-->
+    <link rel="short icon"  href="Resource/icon.png" />
+
+    <!--stylesheet用来加载外部样式表-->
+    <link rel="stylesheet" href="ExternalStyle.css">
+    <style>
+        /*成行的标签写法：display：table  width;需求值*/
+        ul{
+            display: table;
+            width: 100%;
+            background: white;
+            height: 44px;
+
+        }
+        /*成列的标签写法：display：table-cell  width;需求值*/
+        li{
+            display:table-cell;
+            width: 33.3%;
+            text-align: center;
+            vertical-align: middle;
+
+        }
+
+        .DS_second_section img{
+            margin-top: 44px;
+            margin-bottom: -6px;
+        }
+
+        ul li span{
+            display:block;
+        }
+
+        .MD_external_div .MD_bg_img{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<!--第一部分-->
+<header class="DS_header">
+    <span>创业项目</span>
+</header>
+
+<section style="position: fixed;z-index: 9999;width: 100%">
+    <ul>
+        <li>
+            <a style="text-decoration: none" href="BusinessProject.html">
+                <span style="color:  black;background:rgb(244,244,246);line-height: 44px; ">钻石创业者</span>
+            </a>
+        </li>
+
+        <li>
+            <a style="text-decoration: none;"  href="BusinessProjectGold.html">
+                <span style="color: black;background:rgb(244,244,246); line-height: 44px;">金牌创业者</span>
+            </a>
+        </li>
+
+        <li>
+            <a style="text-decoration: none" href="">
+                <span style="color: dodgerblue; line-height: 44px;">银牌创业者</span>
+            </a>
+        </li>
+
+    </ul>
+</section>
+
+<!--第二部分-->
+<section class="DS_second_section">
+    <img src="Resource/banner2.png" alt="哥，请检查您的网络！">
+</section>
+
+<!--第三部分-->
+<div style="background: white" class="MD_external_div">
+    <div style="font-size: 14px;text-align: center" class="MD_inner_div1">
+        <span >服务内容</span>
+    </div>
+    <div class="MD_inner_div2">
+        <img class="MD_bg_img" src="Resource/10w_1.png" alt="">
+    </div>
+    <div style="font-size: 10px;text-align: center;color: rgb(128,128,128);" class="MD_inner_div3">
+        <span>提供以上两个学院的技术支持、咨询服务、课件学习等内容</span>
+    </div>
+</div>
+
+<div  class="MD_external_div">
+    <div style="font-size: 14px;text-align: center" class="MD_inner_div1">
+        <span >创业者享受的回报收益</span>
+    </div>
+    <div class="MD_inner_div2">
+        <img class="MD_bg_img" src="Resource/10w_2.png" alt="">
+    </div>
+</div>
+
+<!--第四部分-->
+<footer>
+    <a href="DropletService.html">
+        <img src="Resource/nav10.png" alt="">
+        <span >小滴服务</span>
+    </a>
+    <a href="">
+        <img src="Resource/nav21.png" alt="">
+        <span style="color: red">企业项目</span>
+    </a>
+    <a href="ServiceProcess.html">
+        <img src="Resource/nav30.png" alt="">
+        <span>服务流程</span>
+    </a>
+    <a href="Platform.html">
+        <img src="Resource/nav40.png" alt="">
+        <span >平台风采</span>
+    </a>
+    <a href="MyDroplet.html">
+        <img src="Resource/nav50.png" alt="">
+        <span>我的小滴</span>
+    </a>
+</footer>
+</body>
+</html>
